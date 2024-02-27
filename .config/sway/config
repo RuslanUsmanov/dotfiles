@@ -1,0 +1,11 @@
+include /etc/sway/config.d/*
+include $HOME/.config/sway/config.d/*.conf
+
+include $HOME/.config/sway/inputs/*.conf
+include $HOME/.config/sway/outputs/*.conf
+
+include $HOME/.config/sway/bindings/*.conf
+
+bar {
+  swaybar_command waybar
+}

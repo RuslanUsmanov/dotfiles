@@ -1,0 +1,20 @@
+daemonize
+# image=~/Pictures/lockscreen.png
+screenshot
+indicator-radius=100
+indicator-thickness=7
+ignore-empty-password
+indicator
+clock
+datestr=%a, %d %b %Y
+effect-blur=5x3
+effect-vignette=0.5:0.5
+effect-pixelate=10
+effect-greyscale
+grace=1
+fade-in=0.5
+ring-color=00bbee
+key-hl-color=0044ee
+line-color=00000000
+inside-color=00000066
+separator-color=00000000
