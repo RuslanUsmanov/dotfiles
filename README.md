@@ -24,6 +24,7 @@ yay -S swaylock-effects
 ## Usage
 
 ```bash
+cd $HOME
 git clone git@github.com:RuslanUsmanov/dotfiles.git
 cd dotfiles
 stow .
