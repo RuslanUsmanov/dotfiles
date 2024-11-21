@@ -84,5 +84,14 @@
     ###############
     w = show
     ###############
+    st = stash
+    stp = stash pop
+    stl = stash list
 [init]
 	defaultBranch = master
+[pull]
+	rebase = true
+[fetch]
+	prune = true
+[diff]
+	colorMoved = zebra

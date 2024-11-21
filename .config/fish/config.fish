@@ -5,5 +5,7 @@ end
 set -gx EDITOR nvim
 set -gx PIPENV_CUSTOM_VENV_NAME venv
 set -gx PIPENV_VENV_IN_PROJECT 1
+set -gx PIPENV_VERBOSITY -1
 
 zoxide init --cmd cd fish | source
+fzf --fish | source
